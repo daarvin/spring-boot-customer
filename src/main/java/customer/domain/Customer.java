@@ -2,18 +2,18 @@ package customer.domain;
 
 public class Customer {
 
-    private final long brinkerMemberId;
+    private final long memberId;
     private final String firstName;
     private final String lastName;
 
-    public Customer(long brinkerMemberId, String firstName, String lastName) {
-        this.brinkerMemberId = brinkerMemberId;
+    public Customer(long memberId, String firstName, String lastName) {
+        this.memberId = memberId;
         this.firstName = firstName;
         this.lastName = lastName;
     }
 
-    public long getBrinkerMemberId() {
-        return brinkerMemberId;
+    public long getMemberId() {
+        return memberId;
     }
 
     public String getFirstName() {
